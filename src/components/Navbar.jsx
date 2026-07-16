@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <div>
           <input
-            className="border-0 text-center outline-none text-white placeholder:text-[#9ca3af] text-sm focus:outline-none focus:ring-0"
+            className="border-0 placeholder:text-center outline-none text-white placeholder:text-[#9ca3af] text-sm focus:outline-none focus:ring-0 w-96"
             type="text"
             placeholder="Find anything"
           />

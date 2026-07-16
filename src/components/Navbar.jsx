@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-2 justify-center h-10 w-24 cursor-pointer rounded-3xl hover:bg-[#303238]">
             <SquarePlus className="w-5 text-[#DBE4E9]" />
-          <button className="text-normal font-medium text-[#DBE4E9]">Create</button>
+          <button className="text-normal font-medium text-[#DBE4E9] cursor-pointer">Create</button>
         </div>
         <div className="flex items-center gap-5 h-10 w-10 rounded-full justify-center mr-2 cursor-pointer hover:bg-[#303238]">
           <Bell className="w-5 text-[#DBE4E9]" />

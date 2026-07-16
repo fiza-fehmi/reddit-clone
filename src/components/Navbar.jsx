@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="parent h-14 bg-[#0E1113] flex items-center justify-between px-6 border-b">
       <div className="top">
-        <h1 className="text-3xl font-bold font-['inter'] text-white">reddit</h1>
+        <h1 className="text-3xl font-bold font-['inter'] text-white cursor-pointer">reddit</h1>
       </div>
       <div className="h-10 w-141 bg-gradient-to-r from-[#FF4500] to-yellow-400 from flex justify-center items-center rounded-full overflow-hidden">
       <div className="center flex h-9 outline-1 outline-[#0E1113] w-140 bg-[#0E1113] items-center justify-between rounded-full hover:bg-[#1D1E20]">

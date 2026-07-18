@@ -84,20 +84,20 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="bottom flex flex-row text-white sm:gap-1 items-center sm:px-4 h-auto">
+      <div className="bottom md:hidden lg:flex flex-row text-white sm:gap-1 items-center sm:px-4 h-auto">
         <div className="hidden sm:flex items-center sm:h-10 sm:w-10 rounded-full justify-center cursor-pointer hover:bg-[#303238]">
-          <Ad className="sm:w-6 hidden md:hidden sm:block text-[#DBE4E9]" />
+          <Ad className="sm:w-6 hidden lg:block text-[#DBE4E9]" />
         </div>
-        <div className="hidden sm:flex items-center sm:h-10 sm:w-10 rounded-full justify-center cursor-pointer hover:bg-[#303238]">
-          <MessageCircleMore className="sm:w-5 md:hidden text-[#DBE4E9] hidden sm:block" />
+        <div className="hidden  sm:flex  items-center sm:h-10 sm:w-10 rounded-full justify-center cursor-pointer hover:bg-[#303238]">
+          <MessageCircleMore className="sm:w-5 hidden md:hidden  text-[#DBE4E9]  lg:block" />
         </div>
         <div className="sm:flex items-center  gap-2 justify-center sm:h-10 sm:w-24 cursor-pointer rounded-3xl hover:bg-[#303238]">
           <SquarePlus className="hidden lg:block w-5 text-[#DBE4E9]" />
-          <button className="text-normal md:hidden hidden sm:block font-medium text-[#DBE4E9] cursor-pointer">
+          <button className="text-normal  hidden lg:block font-medium text-[#DBE4E9] cursor-pointer">
             Create
           </button>
         </div>
-        <div className="hidden lg:flex justify-center items-center gap-1">
+        <div className="hidden md-hidden lg:flex justify-center items-center gap-1">
           <div className="flex items-center gap-6 h-10 w-10 rounded-full justify-center sm:mr-2 cursor-pointer hover:bg-[#303238]">
             <Bell className=" w-5 text-[#DBE4E9]" />
           </div>

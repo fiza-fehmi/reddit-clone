@@ -9,7 +9,7 @@ import { Menu } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <div className="parent lg:h-14 bg-[#0E1113] flex flex-col lg:flex-row items-center justify-center lg:justify-between py-2 lg:px-3">
+    <div className="parent lg:h-14 bg-[#0E1113] flex flex-col lg:flex-row items-center justify-center lg:justify-between py-2 lg:px-3 border-b border-[#B7CAD4]/20">
       <h1 className="lg:block hidden text-3xl font-extrabold  font-['IBM_Plex_Sans'] text-[#ffffff] cursor-pointer pl-2">
               reddit
             </h1>
